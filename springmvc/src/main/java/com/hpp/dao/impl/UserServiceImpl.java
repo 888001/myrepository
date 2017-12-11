@@ -13,7 +13,6 @@ public class UserServiceImpl implements UserService {
 	UserTMapper userTMapper;
 
 	public UserT selectAllUser() {
-		// TODO Auto-generated method stub
 		return userTMapper.selectAllUser();
 	}
 
